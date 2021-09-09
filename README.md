@@ -1,6 +1,6 @@
 # Trajectory Prediction enabled 3D Tracking via Multi-camera collaboration (Our ongoing project)
 
-The pytorch program is developed by using the source code of Social LSTM implementation as a basis (https://github.com/quancore/social-lstm)
+
 
 <div align=left> Application scenario:
   
@@ -18,5 +18,4 @@ The pytorch program is developed by using the source code of Social LSTM impleme
   
 <div align=center><img width="704" alt="Screen Shot 2021-09-09 at 1 52 51 PM" src="https://user-images.githubusercontent.com/37515653/132737393-febc2003-2c1a-494f-bf38-31d5eb0277b1.png">
 
- 
-
+The pytorch program is developed by using the source code of Social LSTM implementation as a basis (https://github.com/quancore/social-lstm)
