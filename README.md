@@ -24,4 +24,4 @@ Based on the proposed solution, real-time adaption of camera settings to ever-ch
   
 <div align=center><img width="704" alt="Screen Shot 2021-09-09 at 1 52 51 PM" src="https://user-images.githubusercontent.com/37515653/132737393-febc2003-2c1a-494f-bf38-31d5eb0277b1.png">
 
-<div align=left> pytorch program is developed by using the source code of Social LSTM implementation as a basis (https://github.com/quancore/social-lstm)
+<div align=left> Pytorch program is developed by using the source code of Social LSTM implementation as a basis (https://github.com/quancore/social-lstm)
