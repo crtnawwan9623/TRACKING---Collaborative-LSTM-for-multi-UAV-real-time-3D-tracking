@@ -1,46 +1,22 @@
-# Social LSTM implementation in PyTorch
+# Trajectory Prediction enabled 3D Tracking via Multi-camera collaboration (Our ongoing project)
 
-## Project details
-**Semester project of Master of Computer Science in EPFL**  
-**Student name** : Baran Nama  
-**Advisor:** Alexandre Alahi  
-**Presentation** : https://drive.google.com/file/d/1biC23s1tbsyDETKKBW8PFXWYyyhNEAuI/view?usp=sharing  
+The pytorch program is developed by using the source code of Social LSTM implementation as a basis (https://github.com/quancore/social-lstm)
 
-## Implementation details
-**Baseline implementation**: https://github.com/vvanirudh/social-lstm-pytorch  
-**Paper**: http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf  
-**Detailed info about challange and datasets**: https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge
-**Made improvements:** Please see attached presentation  
+<div align=left> Application scenario:
+  
+<div align=center><img width="539" alt="Screen Shot 2021-09-09 at 1 48 07 PM" src="https://user-images.githubusercontent.com/37515653/132736773-e12e6b7a-2cb4-4c3d-8b30-c14cce246093.png">
+ 
+ <div align=left> Execution flow:
+  
+<div align=center><img width="463" alt="Screen Shot 2021-09-09 at 1 49 25 PM" src="https://user-images.githubusercontent.com/37515653/132736949-905603f0-1a37-4838-947e-6ac5df5a1561.png">
+ 
+ <div align=left> Collaborative LSTM model:
+  
+<div align=center><img width="394" alt="Screen Shot 2021-09-09 at 1 50 42 PM" src="https://user-images.githubusercontent.com/37515653/132737112-bcf44c21-cf25-4b8f-8db9-f653adcb567a.png">
+  
+ <div align=left> Performance evalution:
+  
+<div align=center><img width="704" alt="Screen Shot 2021-09-09 at 1 52 51 PM" src="https://user-images.githubusercontent.com/37515653/132737393-febc2003-2c1a-494f-bf38-31d5eb0277b1.png">
 
-## Documentation
-- **generator.py** : Python script for generating artifical datasets
-- **helper.py**: Python script includes various helper methods
-- **hyperparameter.py**: Pyton script for random best parameter selection for a model
-- **make_directories.sh**: Bash script for creation of file structure
-- **model.py**: Python file includes Social LSTM model definition
-- **olstm_model.py**: Python file includes Occupancy LSTM model definition
-- **olstm_train.py**: Python script for training Occupancy LSTM model
-- **test.py**: Python script for model testing and getting output txt file for submission
-- **train.py**: Python script for training Social LSTM model
-- **utils.py**: Python script for handling input train/test/validation data and batching it
-- **validation.py**: Python script for externally evaluate a trained model by getting validation error
-- **visualize.py**: Python script for visualizing predicted trajectories during train/test/validation sessions
-- **vlstm_model.py**: Python file includes Vanilla LSTM model definition
-- **vlstm_train**: Python script for training Vanilla LSTM model
-
-## How to deploy
-1. Fork the repository 
-2.  Start train a model >>> **python train/olstm_train/vlstm.train.py - -[Parameter set]**
-3. If necesarry file structure is not exist (which is the initial situation), train script will run make_directories.sh and this command will automatically create file structure
-4. Enjoy!
-
-## Results  
-
-| Model name | Avarage error | Final error | Mean error |
-| :---: | :---: | :---: | :---: |
-| Social LSTM | 1.3865 | 2.098 | 0.675 |
-| Occupancy LSTM | 2.1105 | 3.12 | 1.101 |
-| Vanilla LSTM | 2.107 | 3.114 | 1.1 |
-
-**Reference**: http://trajnet.stanford.edu/result.php?cid=1
+ 
 
