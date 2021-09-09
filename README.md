@@ -1,5 +1,11 @@
 # Trajectory Prediction enabled 3D Tracking via Multi-camera collaboration (Our ongoing project)
 
+In this project, we propose a novel real-time pipeline, future prediction assisted feedback control, to address these challenges and achieve multi-camera tracking and 3D visualization. In particular, the proposed multi-camera control system includes three functional component: 
+1) Predicting future scene condition by extrapolated frames; 
+2) Decision-making of optimal camera settings for predicted scene condition and further optimal control trajectory from current settings to the future settings; 
+3) Cameras settings are updated by following the optimal control trajectory to actively adapt to the changes of scene condition. 
+
+Based on the proposed solution, real-time adaption of camera settings to ever-changing scene features could be achieved. Besides, the system could alleviate the negative effect of network latency and achieve synchronous multi-camera control.
 
 
 <div align=left> Application scenario:
